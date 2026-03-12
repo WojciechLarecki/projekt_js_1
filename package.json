@@ -17,16 +17,17 @@
     "deploy:prod": "rsync -avz --delete dist/ user@serwer.pl:/var/www/app/"
   },
   "dependencies": {
+    "terser": "^5.46.0",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.0.3",
-    "globals": "^17.4.0",
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.0",
     "@eslint/eslintrc": "^3.3.5",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
     "uglify-js": "^3.19.3"
   }
 }
